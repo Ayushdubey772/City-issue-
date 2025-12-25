@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CITY-ISSUE REPORTING</title>
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+  <div class="header">
+    <h1>CITY ISSUE REPORTING PLATFORM</h1>
+    <p>Report your problem around you to make our India move forward by every report</p>
+    <div><button class="badge">Back</button></div>
+  </div>
+
+  <div class="content">
+
+    <div class="layout">
+      <h3>Select your issue from given options.</h3>
+      <select class="selct">
+        <option value="">Auto-detect</option>
+        <option>Roads</option>
+        <option>Sanitation</option>
+        <option>Electricity</option>
+        <option>Water</option>
+        <option>Safety</option>
+      </select>
+    </div>
+
+    <div class="layout">
+      <h3>Describe your problem here!!</h3>
+      <textarea class="description" placeholder="Describe the issue" required></textarea>
+    </div>
+
+    <div class="layout">
+      <h3>Upload the authentic photo of the issue :</h3>
+      <input type="file" id="imgUpload" class="img_sec" name="imgUpload" accept="image/*" required>
+    </div>
+
+    <div class="layout">
+      <h3>Choose or enter the location spot:</h3>
+      <input type="text" id="location" class="inputs" placeholder="enter the location address">
+      <p class="or">OR</p>
+      <button class="locate">Use My Live Location</button>
+    </div>
+
+    <div class="layout">
+      <h3>Local governing bodies:</h3>
+      <select class="selct">
+        <option value="">Auto-detect</option>
+        <option>Gram panchayat</option>
+        <option>Villa panchayat</option>
+        <option>Nagar nigam</option>
+        <option>Block</option>
+      </select>
+    </div>
+
+    <div class="layout">
+      <h3>Additional Details of the Complainant :</h3>
+      <p class="dis">Only if the complainant is comfortable to share his/her details!!</p>
+
+      <label for="name">Full name of complainant:</label>
+      <input type="text" id="name" class="detail" placeholder="Enter your name">
+      <br><br>
+
+      <label for="number">Phn no.of complainant:</label>
+      <input type="tel" id="number" class="details" placeholder="Enter your phone no.">
+
+      <p><h5>Comment (optional):</h5></p>
+      <textarea class="description" placeholder="Describe the issue"></textarea>
+    </div>
+
+    <div class="layout">
+      <h3 class="thank">THANKING YOU FOR YOUR RESPONSIBLE RESPONSE!!</h3>
+    </div>
+
+    <button id="actionBtn" class="primary-btn">SUBMIT REPORT!</button>
+    <p id="output" class="output-text"></p>
+
+  </div>
+</div>
+
+</body>
+</html>
+<script src="App.js"></script>
