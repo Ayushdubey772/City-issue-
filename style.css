@@ -1,0 +1,141 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(240, 244, 248);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  color: rgb(51, 51, 51);
+}
+
+.or {
+  margin-left: 200px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 500px;
+  overflow: hidden;
+  border: 1px solid #e1e8ed;
+}
+
+.header {
+  background: linear-gradient(135deg, #4A90E2, #2196F3);
+  color: white;
+  padding: 24px;
+  position: relative;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.badge {
+  background: rgba(255,255,255,0.2);
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  position: absolute;
+  top: 5px;
+  right: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.content {
+  padding: 24px;
+}
+
+.layout {
+  background-color: rgb(240, 243, 245);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.selct {
+  background-color: lightgrey;
+  border: none;
+  margin-bottom: 8px;
+}
+
+.description {
+  resize: none;
+  border-radius: 10px;
+  height: 100px;
+  width: 98%;
+}
+
+.img_sec {
+  margin-bottom: 8px;
+}
+
+.locate {
+  border: none;
+  margin: 5px;
+  background-color: lightgrey;
+  border-radius: 5px;
+  height: 50px;
+  width: 98%;
+  cursor: pointer;
+}
+
+.locate:hover {
+  opacity: 0.7;
+}
+
+.dis {
+  font-size: 12px;
+  background-color: skyblue;
+  text-align: center;
+}
+
+.details {
+  margin-left: 20px;
+}
+
+.inputs {
+  border-radius: 10px;
+  height: 40px;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 120px;
+}
+
+.thank {
+  text-align: center;
+}
+
+.primary-btn {
+  background-color: #4A90E2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.primary-btn:hover {
+  background-color: #357ABD;
+}
+
+.output-text {
+  margin-top: 16px;
+  font-weight: 500;
+  color: #2196F3;
+  text-align: center;
+  min-height: 24px;
+}
